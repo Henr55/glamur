@@ -70,3 +70,48 @@ p{
 p:hover{
   color: skyblue;
 }
+
+
+@media screen and (max-width:769px){
+  .main{
+    padding: 0;
+    background-color: black;
+  }
+  h3{
+    font-size: 13px;
+  }
+  .icon{
+    margin-top: 10px;
+  }
+  i{
+    font-size: 13px;
+  }
+  .number{
+    margin-right: 5px;
+  }
+  .number p{
+    font-size: 13px;
+  }
+}
+@media screen and (max-width:376px){
+  .main{
+    margin: 0;
+    padding: 0;
+  }
+  .header{
+    display: block;
+    margin: 0;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+  .icon{
+    position: relative;
+    bottom: 200px;
+    right: 200px;
+  }
+  .number{
+    position: relative;
+    bottom: 235px;
+    right: 50px;
+  }
+}

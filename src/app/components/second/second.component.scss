@@ -1,5 +1,4 @@
 h1{
-  // text-align: center;
   margin-block-start: 0;
 }
 .text h4{
@@ -99,6 +98,9 @@ h3{
   grid-gap:3em;
   margin:auto 10em;
 }
+#packet{
+  text-align: center;
+}
 .item p{
   text-align: left;
 }
@@ -150,4 +152,76 @@ h3{
 .img-wraper{
   height: 400px;
   width: 210px;
+}
+
+@media screen and (max-width:769px){
+.text h1,.text-second h1,.box h1
+#packet{
+  font-size: 20px;
+}
+.text-second h5,.box p{
+  font-size: 16px;
+}
+.text h4{
+  font-size: 12px;
+}
+.text-second{
+  padding: 5px;
+}
+.box{
+  margin: 0;
+}
+.box h3{
+  font-size: 15px;
+}
+.button{
+  height: 30px;
+  width: 160px;
+}
+.container{
+  margin: 5px;
+  grid-gap:1em;
+}
+#opinion h4{
+  font-size: 20px;
+}
+}
+@media screen and (max-width:376px){
+  .container{
+    display: block;
+  }
+  .grid-3-column{
+    display: grid;
+    grid-template-columns:  1fr ;
+  }
+.text h1,.text-second h1,.box h1
+#packet{
+  font-size: 18px;
+}
+.text-second h5,.box p{
+  font-size: 14px;
+}
+.text h4{
+  font-size: 10px;
+}
+.box h3{
+  font-size: 13px;
+}
+.button{
+  height: 30px;
+  width: 140px;
+  position: relative;
+  left: 80px;
+}
+#opinion h4{
+  font-size: 18px;
+}
+.btn{
+  width: 170px;
+  height: 40px;
+  margin-left: 80px;
+}
+#opinion h4{
+  margin-top: 140px;
+}
 }

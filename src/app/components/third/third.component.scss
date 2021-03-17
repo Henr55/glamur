@@ -31,3 +31,8 @@ button:focus{
   text-align: center;
   margin-top: 10px;
 }
+@media screen and (max-width:769px){
+  .btn{
+    padding-top: 5px;
+  }
+}
