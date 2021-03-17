@@ -1,3 +1,4 @@
+import { InfoComponent } from './components/info/info.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { OtzComponent } from './components/otz/otz.component';
 import { UslComponent } from './components/usl/usl.component';
@@ -30,6 +31,7 @@ const appRouts:Routes = [
   {path:"Otz",component:OtzComponent},
   {path:"Contact",component:ContactComponent},
   {path:"Order",component:OrderComponent},
+  {path:"Info",component:InfoComponent},
 ]
 @NgModule({
   declarations: [
@@ -45,7 +47,8 @@ const appRouts:Routes = [
     TrainingComponent,
     UslComponent,
     OtzComponent,
-    ContactComponent
+    ContactComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule,
