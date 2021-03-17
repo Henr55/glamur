@@ -1,0 +1,72 @@
+.main{
+  height: 42em;
+  padding:0 10em;
+  background-image: url('../../../assets/img/bg-main.png');
+  background-position: center;
+}
+.header{
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(7,max-content) 1fr 1fr;
+  grid-gap: 1em;
+  margin-left: 20px;
+}
+.header a{
+  text-decoration: none;
+  color: white;
+}
+i{
+  color: white;
+  margin: 7px;
+  font-size: 25px;
+}
+#fb:hover{
+  transition: all 1s;
+  transform: rotate(360deg);
+  color: #0777E9;
+}
+#insta:hover{
+  transition: all 1s;
+  transform: rotate(360deg);
+  color: #D82A70;
+}
+#vk:hover{
+  transition: all 1s;
+  transform: rotate(360deg);
+  color: #43638A;
+}
+.icon{
+  margin-top: 18px;
+  text-align: right;
+}
+.number{
+  text-align: right;
+}
+
+.second{
+  padding-left: 3px;
+  margin-block-start: 0;
+}
+.first{
+  margin-block-end: 2px;
+}
+.logo{
+  margin-top: 140px;
+  margin-left: 20px;
+}
+.logo h3{
+  color: white;
+}
+.logo h4{
+  color: #A89B7B;
+}
+h3:hover{
+  color: skyblue;
+  cursor: pointer;
+}
+p{
+  cursor: pointer;
+}
+p:hover{
+  color: skyblue;
+}

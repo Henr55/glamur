@@ -1,0 +1,153 @@
+h1{
+  // text-align: center;
+  margin-block-start: 0;
+}
+.text h4{
+  text-align: center;
+}
+img{
+  width: 100%;
+  padding-top: 50px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.text{
+  background: white;
+  text-align: center;
+  padding-top: 50px;
+}
+.text h1{
+  color: #2F2F2F;
+}
+.text h4{
+  color: #343434;
+}
+.text-second{
+  padding:0 12em;
+}
+.text-second p{
+  color: #656565;
+}
+.text-second h1{
+  color: #2F2F2F;
+}
+.text-second h5{
+  color: #656565;
+}
+p {
+  text-align: center;
+}
+.centr{
+  display: flex;
+  justify-content: center;
+}
+.button{
+  background-color: #FE0B39;
+  border: none;
+  height: 50px;
+  width: 170px;
+  border-radius:3px;
+  margin-left: 30px;
+  padding: 10px;
+}
+.button:focus{
+  outline: none;
+  outline-offset: none;
+}
+.btn{
+  width: 200px;
+  height: 50px;
+  background-color: #FE0B39;
+  border: none;
+  border-radius: 3px;
+}
+.box{
+  border: solid 1px grey;
+  margin:auto 15em;
+}
+.box h1{
+  display: flex;
+  justify-content: center;
+}
+.box p{
+  color: #656565;
+}
+.grid-3-column{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.box-header{
+  background:#D8F0D8;
+
+}
+.box-body{
+  text-align: center;
+}
+
+.box-body div{
+  border:1px solid gray;
+}
+h3{
+  margin-block-end: 0;
+  text-align: center;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap:3em;
+  margin:auto 10em;
+}
+.item p{
+  text-align: left;
+}
+.item{
+  padding:1em;
+  border:2px solid gray;
+}
+.item:hover{
+  border:2px solid blue;
+  box-shadow:5px 5px 5px 5px black;
+}
+.item:nth-child(2){
+  h3{
+    position: relative;
+    top: 16px;
+  }
+  .btn{
+    margin-top: 16px;
+  }
+}
+.item:nth-child(3){
+  h3{
+    position: relative;
+    top: 16px;
+  }
+  .btn{
+    margin-top: 16px;
+  }
+}
+#currency{
+  font-size: 14px;
+}
+.opinion{
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 130px;
+}
+#opinion{
+  display: flex;
+  justify-content: center;
+}
+#opinion h4{
+  margin-top: 190px;
+  font-size: 28px;
+  text-align: left;
+  margin-left: 30px;
+  color: #656565;
+}
+.img-wraper{
+  height: 400px;
+  width: 210px;
+}
