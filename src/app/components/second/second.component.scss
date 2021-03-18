@@ -186,15 +186,15 @@ h3{
   font-size: 20px;
 }
 }
-@media screen and (max-width:376px){
-  .container{
-    display: block;
-  }
-  .grid-3-column{
+@media screen and (max-width:426px){
+.grid-3-column{
     display: grid;
     grid-template-columns:  1fr ;
-  }
-.text h1,.text-second h1,.box h1
+}
+.container{
+  display: block;
+}
+.text h1,.text-second h1,.box h1,
 #packet{
   font-size: 18px;
 }
@@ -211,17 +211,53 @@ h3{
   height: 30px;
   width: 140px;
   position: relative;
-  left: 80px;
+  left: 110px;
 }
 #opinion h4{
   font-size: 18px;
+  margin-top: 120px;
 }
 .btn{
   width: 170px;
   height: 40px;
-  margin-left: 80px;
+  margin-left: 100px;
+}
+.opinion h1{
+  font-size: 18px;
+}
+}
+@media screen and (max-width:376px){
+//   .container{
+//     display: block;
+//   }
+
+// .text h1,.text-second h1,.box h1
+// #packet{
+//   font-size: 18px;
+// }
+// .text-second h5,.box p{
+//   font-size: 14px;
+// }
+// .text h4{
+//   font-size: 10px;
+// }
+// .box h3{
+//   font-size: 13px;
+// }
+.button{
+  // height: 30px;
+  // width: 140px;
+  // position: relative;
+  left: 80px;
 }
 #opinion h4{
+  // font-size: 18px;
   margin-top: 140px;
 }
+.btn{
+  // width: 170px;
+  // height: 40px;
+  margin-left: 80px;
+}
+
 }
