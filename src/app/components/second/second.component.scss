@@ -17,6 +17,7 @@ a{
   text-align: center;
   padding-top: 50px;
 }
+
 .text h1{
   color: #2F2F2F;
 }
@@ -109,8 +110,8 @@ h3{
   border:2px solid gray;
 }
 .item:hover{
-  border:2px solid blue;
-  box-shadow:5px 5px 5px 5px black;
+  border:2px solid grey;
+  box-shadow:5px 5px 5px 5px grey;
 }
 .item:nth-child(2){
   h3{
@@ -153,6 +154,25 @@ h3{
   height: 400px;
   width: 210px;
 }
+.old{
+  color: rgba(grey, 0.5);
+    text-decoration: none;
+    position: relative;
+    &:before {
+      content: " ";
+      display: block;
+      width: 30%;
+      border-top: 2px solid rgba(red, 0.8);
+      height: 12px;
+      position: absolute;
+      bottom: 0;
+      left: 74px;
+      top: 10px;
+      transform: rotate(-10deg);
+    }
+
+}
+
 
 @media screen and (max-width:769px){
 .text h1,.text-second h1,.box h1
@@ -226,37 +246,35 @@ h3{
   font-size: 18px;
 }
 }
-@media screen and (max-width:376px){
-//   .container{
-//     display: block;
-//   }
+.old{
+  color: rgba(grey, 0.5);
+    text-decoration: none;
+    position: relative;
+    &:before {
+      content: " ";
+      display: block;
+      width: 20%;
+      border-top: 2px solid rgba(red, 0.8);
+      height: 12px;
+      position: absolute;
+      bottom: 0;
+      left: 150px;
+      top: 10px;
+      transform: rotate(-10deg);
+    }
 
-// .text h1,.text-second h1,.box h1
-// #packet{
-//   font-size: 18px;
-// }
-// .text-second h5,.box p{
-//   font-size: 14px;
-// }
-// .text h4{
-//   font-size: 10px;
-// }
-// .box h3{
-//   font-size: 13px;
-// }
+}
+
+
+@media screen and (max-width:376px){
+
 .button{
-  // height: 30px;
-  // width: 140px;
-  // position: relative;
   left: 80px;
 }
 #opinion h4{
-  // font-size: 18px;
   margin-top: 140px;
 }
 .btn{
-  // width: 170px;
-  // height: 40px;
   margin-left: 80px;
 }
 
